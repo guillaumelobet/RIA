@@ -8,7 +8,7 @@ Images need to be in black and white, with the roots in black, for a good analys
 
 
 - Install [FIJI](https://fiji.sc/)
-- Download the file `RIA_J.jar` from [HERE]()
+- Download the file `RIA_J.jar` from [HERE](https://github.com/guillaumelobet/RIA/raw/master/RIA_J.jar)
 - Launch FIJI and go to `Plug-in > Install Plugin`
 - Select the `RIA_J.jar` file
 - Relaunch FIJI
