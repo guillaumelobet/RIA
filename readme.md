@@ -35,3 +35,7 @@ You're done!
 ## Screencast of RIA-J
 
 [![IMAGE ALT TEXT HERE](/img/video.png)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+## Example output
+
+![example output](/img/output.png)
