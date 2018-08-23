@@ -38,4 +38,15 @@ You're done!
 
 ## Example output
 
+### Root
+
 ![example output](/img/output.png)
+
+### Shoot
+
+![example output](/img/output_2.png)
+
+
+### Butterfly
+
+![example output](/img/output_3.png)
