@@ -50,3 +50,10 @@ You're done!
 ### Butterfly
 
 ![example output](/img/output_3.png)
+
+
+## Cite us
+
+If you use RIA-J please use the following citation:
+
+  Lobet G, Koevoets IT, Noll M, Tocquin P, Meyer PE, Pagès L, et al. Using a structural root system model to evaluate and improve the accuracy of root image analysis pipelines. Front Plant Sci. Frontiers; 2017;8. doi:10.3389/fpls.2017.00447
