@@ -36,7 +36,40 @@ You're done!
 
 [![IMAGE ALT TEXT HERE](/img/video.png)](https://www.youtube.com/watch?v=xgBFaJgVdyE)
 
-## Example output
+## Measurements
+
+- **diam_max**:	max diameter
+- **diam_mean**:	mean diameter
+- **diam_mode**:	most frequent diameter (mode)
+- **length**:	length of the skeleton of the root system
+- **area**:	projected area of the root system
+- **width**:	The maximal width of the root system
+- **depth**:	The maximal depth of the root system
+- **width_depth_ratio**:	ratio between the width and the depth of the root system
+- **com_x**:	relative coordinate of the center of mass of the root system (x)
+- **com_y**:	relative coordinate of the center of mass of the root system (y)		
+- **ellips_##**:	Proportion of root area in ellipses of different size, centered on the top of the root system (see figure below for graphical explanation)
+- **rect_##**:	Proportion of root area in 4 layers of the root system (see figure below for graphical explanation)
+- **directionality**:	Mean direction of the root segments in the root system
+- **tip_count**:	number of end branches in the root system skeleton		
+- **convexhull**:	Area of the smallest convex shape encapsulating the root system
+
+
+**Cross-hori and Cross-vert**
+For these, we scan the root system skeleton with a horizontal/vertical line. During the scan, at each y/x position, we count the number of roots crossing the line. We then compute either the maximal or mean number of roots crossed during the scanning. For the horizontal scanning, we divided the root system in 30 layers. So cross-hori-mean-# can be seen as a root number profile along the depth of the root system.
+- **cross-hori-#-mean** : Mean root detected when scanning the root system with a horizontal line at the depth #
+- **cross-hori-#-max** :	Max root detected when scanning the root system with a horizontal line at the depth #		
+- **cross-vert-mean**:	Mean number of root detected when scanning the root system with a vertical line 	
+- **cross-vert-max**: Max number of root detected when scanning the root system with a vertical line 
+
+**Coord / Diff / Cumul**
+We dived the root system in ten equal layers. In each layer, we find the min and max x values of the root segments. With this, we can compute a *shape* of the root system, with only 10 pairs of x values. 
+- **coord_x#** : x coordinates of the shape of the root system. 
+- **diff_x#**	: difference between x values for each layer of the shape. Desctibe the width of the root system in each layer
+- **cumul_x#**	: cumulative width of the different layers of the root system
+
+
+## Example of visual output
 
 ### Root
 
@@ -50,7 +83,6 @@ You're done!
 ### Butterfly
 
 ![example output](/img/output_3.png)
-
 
 ## Cite us
 
